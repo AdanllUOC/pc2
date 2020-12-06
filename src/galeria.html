@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+  <html lang="es">
+    <!--  Parte de la cabecera de metadatos de la página -->
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+      <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"/>  <!-- Especica la codificación de caracteres y el contenido del documento -->
+      <title>Título de Página de Galería</title> <!-- Especica El título del documento -->
+      <meta name="author" content="Adán Rafael López Lecuona"> <!-- Especica el autor del documento -->
+      <meta name="description" content="PC2: HTML y CSS 2. Página de Galería"> <!-- Especica la descripción del documento -->
+    
+    </head>
+    <!--  Parte del cuerpo de la página -->
+    <body>
+  
+      <!-- 1. Parte de la cabecera de la página -->
+      <header>
+              
+        
+      </header>
+  
+      <!-- 1.1 Menú de la página -->
+      <nav >
+          <ul>
+            <li><a href="grupos.html">GRUPOS</a></li>
+            <li><a href="historia.html">HISTORIA</a></li>
+            <li><a href="galeria.html">GALERÍA</a></li>
+            <li><a href="entradas.html">ENTRADAS</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+          </ul>     
+      </nav>
+  
+        
+  
+      <!-- 2. Parte de la parte principal de la página -->
+      <h1 class="textoCentrado">Galeríade Fotos</h1>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/grupo1.jpg" class="d-block w-100" alt="Foto Vista Principal">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Vista Principal</h5>
+                <p>Vista general del escenario</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/principal.jpg" class="d-block w-100" alt="Foto Vista Principal 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Vista Principal 2</h5>
+                <p>Vista general del escenario 2</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/principal.jpg" class="d-block w-100" alt="Foto Vista Principal 3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Vista Principal 3</h5>
+                <p>Vista general del escenario 3</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+  
+        
+  
+      <!-- 3. Parte de la pie de página de la página -->
+     <!-- 3. Parte de la pie de página de la página -->
+     <footer>
+            <hr/> <!-- Línea separadora de texto parte inferior-->
+            <p class="textoCentrado">Actividad realizada  por Adán Rafael López Lecuona</p>
+     </footer>
+    </body>
+  </html>

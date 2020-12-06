@@ -1,0 +1,29 @@
+
+// Reglas del Flex - Página de grupos 
+//----> Diseño de Desktop first
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: auto;
+  align-content: center
+}
+
+.FlexContainer div {
+  width: 500px;
+  height: 397px;
+  margin: 5px;
+  background-color: $text;
+}
+
+.item {
+  flex: 0 0 auto;
+  margin: 10px;
+  transition: transform .1s;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
